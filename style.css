@@ -1,0 +1,31 @@
+.element {
+    border: 1px solid black;
+    box-shadow: 4px,4px,4px #999;
+    width: 50px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.element h3, .element p {
+    margin: 5px 0;
+}
+
+
+.flex {
+    display:flex;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.space-between {
+    justify-content: space-between
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
